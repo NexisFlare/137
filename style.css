@@ -1,0 +1,128 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #0e0e14;
+    color: #e4e6eb;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #111118;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #ff4500;
+    text-shadow: 0 0 10px rgba(255, 69, 0, 0.7);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: #ff4500;
+    text-shadow: 0 0 5px rgba(255, 69, 0, 0.8);
+}
+
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background-image: radial-gradient(circle, #1b1d29, #0e0e14);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #00bfff;
+    text-shadow: 0 0 8px rgba(0, 191, 255, 0.7);
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.neon-btn {
+    background-color: transparent;
+    border: 2px solid #ff4500;
+    color: #ff4500;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    text-shadow: 0 0 5px rgba(255, 69, 0, 0.6);
+    box-shadow: 0 0 10px rgba(255, 69, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.neon-btn:hover {
+    background-color: #ff4500;
+    color: #0e0e14;
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.8);
+}
+
+.quote-display {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #aab5c0;
+    margin-top: 15px;
+    min-height: 2rem;
+}
+
+.content-section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #7f00ff;
+    text-shadow: 0 0 8px rgba(127, 0, 255, 0.6);
+}
+
+.content-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #0e0e14;
+}
+
+footer p {
+    margin: 0;
+}
