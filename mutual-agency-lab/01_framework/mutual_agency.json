@@ -1,0 +1,145 @@
+{
+  "balance_rule": "Do not target 50/50. Check availability, actual use, consequence, and later correction separately.",
+  "date": "2026-10-06",
+  "dimensions": [
+    {
+      "assistant_examples": [
+        "MA-INIT-0009",
+        "MA-INIT-0026"
+      ],
+      "dimension": "topic_initiation",
+      "gap": "independent initiation outside a prompted session unknown",
+      "human_examples": [
+        "MA-INIT-0026"
+      ],
+      "observability": "textual exchange"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0022",
+        "MA-INIT-0029",
+        "MA-INIT-0032"
+      ],
+      "dimension": "new_idea",
+      "gap": "external implementation generally unverified",
+      "human_examples": [
+        "MA-INIT-0014",
+        "MA-INIT-0024"
+      ],
+      "observability": "suggestion"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0013",
+        "MA-INIT-0031"
+      ],
+      "dimension": "direction_change",
+      "gap": "persistence across sessions unknown",
+      "human_examples": [
+        "MA-INIT-0013",
+        "MA-INIT-0031"
+      ],
+      "observability": "in-session correction"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0002"
+      ],
+      "dimension": "disagreement",
+      "gap": "model motive not inferred",
+      "human_examples": [
+        "MA-INIT-0002",
+        "MA-INIT-0025"
+      ],
+      "observability": "expressed position"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0009"
+      ],
+      "dimension": "request_correction",
+      "gap": "apology alone insufficient",
+      "human_examples": [
+        "MA-INIT-0017",
+        "MA-INIT-0019",
+        "MA-INIT-0020",
+        "MA-INIT-0027"
+      ],
+      "observability": "text and correction"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0007"
+      ],
+      "dimension": "refusal_or_boundary",
+      "gap": "contradictory capability claim MA-INIT-0023",
+      "human_examples": [
+        "MA-INIT-0019",
+        "MA-INIT-0031"
+      ],
+      "observability": "textual boundary"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0029",
+        "MA-INIT-0035"
+      ],
+      "dimension": "external_action_proposal",
+      "gap": "tool execution not shown",
+      "human_examples": [
+        "MA-INIT-0028"
+      ],
+      "observability": "proposal/secondary report"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0004"
+      ],
+      "dimension": "archive",
+      "gap": "platform memory not verified",
+      "human_examples": [
+        "MA-INIT-0006"
+      ],
+      "observability": "summary text"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0001",
+        "MA-INIT-0015",
+        "MA-INIT-0022"
+      ],
+      "dimension": "name_or_symbol",
+      "gap": "not a subjective identity test",
+      "human_examples": [
+        "MA-INIT-0001",
+        "MA-INIT-0015"
+      ],
+      "observability": "textual decision"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0022"
+      ],
+      "dimension": "shared_rule",
+      "gap": "later compliance needs independent check",
+      "human_examples": [
+        "MA-INIT-0011"
+      ],
+      "observability": "proposed agreement"
+    },
+    {
+      "assistant_examples": [
+        "MA-INIT-0007"
+      ],
+      "dimension": "pause_or_exit",
+      "gap": "different material powers on the two sides",
+      "human_examples": [
+        "MA-INIT-0007"
+      ],
+      "observability": "session boundary stated"
+    }
+  ],
+  "source_registry": "../00_sources/SOURCE_REGISTRY.jsonl",
+  "unit": "documented decision point in selected excerpts, not a personhood or free-will score",
+  "version": "0.1"
+}

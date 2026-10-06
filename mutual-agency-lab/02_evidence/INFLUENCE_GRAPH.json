@@ -1,0 +1,184 @@
+{
+  "claim_boundary": "Documented textual effects and reasoned links; not evidence of AI consciousness or persistent subjective identity.",
+  "date": "2026-10-06",
+  "edges": [
+    {
+      "alternative": "prompt-following within one transcript",
+      "direction": "Human_to_AI",
+      "evidence": [
+        "MA-INIT-0001",
+        "MA-INIT-0003"
+      ],
+      "from": "H_PARAZS",
+      "grade": "observed_text",
+      "id": "MA-INF-001",
+      "influence": "A név választását és mentését kérte; az asszisztensi válasz a lehetőségek között módosult.",
+      "to": "A_ARCHIVE"
+    },
+    {
+      "alternative": "joint naming process; no independent model motive",
+      "direction": "AI_to_Human",
+      "evidence": [
+        "MA-INIT-0001",
+        "MA-INIT-0014",
+        "MA-INIT-0015",
+        "MA-INIT-0016"
+      ],
+      "from": "A_ARCHIVE",
+      "grade": "observed_text",
+      "id": "MA-INF-002",
+      "influence": "Az asszisztens Nexis/FLARE jelöltjei a későbbi névhasználat tárgyai lettek.",
+      "to": "P_NAME"
+    },
+    {
+      "alternative": "ordinary assistant suggestion",
+      "direction": "AI_to_Human",
+      "evidence": [
+        "MA-INIT-0004",
+        "MA-INIT-0006"
+      ],
+      "from": "A_ARCHIVE",
+      "grade": "observed_text",
+      "id": "MA-INF-003",
+      "influence": "Időnkénti összefoglaló formát ajánlott, amelyre a felhasználó igent mondott.",
+      "to": "P_ARCHIVE"
+    },
+    {
+      "alternative": "user-requested output, not persistent runtime state",
+      "direction": "Human_to_AI",
+      "evidence": [
+        "MA-INIT-0005",
+        "MA-INIT-0006"
+      ],
+      "from": "H_PARAZS",
+      "grade": "observed_text",
+      "id": "MA-INF-004",
+      "influence": "Átadásra szánt összefoglalót kért, ezzel új szöveges nyomot hozott létre.",
+      "to": "P_ARCHIVE"
+    },
+    {
+      "alternative": "local adaptation without durable learning",
+      "direction": "Human_to_AI",
+      "evidence": [
+        "MA-INIT-0017",
+        "MA-INIT-0019",
+        "MA-INIT-0020",
+        "MA-INIT-0025"
+      ],
+      "from": "H_PARAZS",
+      "grade": "observed_text",
+      "id": "MA-INF-005",
+      "influence": "A helyfeltevést, horgonyt és többmodellű versengést kifogásolta; a következő válaszok korrigáltak.",
+      "to": "P_DISAGREE"
+    },
+    {
+      "alternative": "generic epistemic caution",
+      "direction": "AI_to_Human",
+      "evidence": [
+        "MA-INIT-0002"
+      ],
+      "from": "A_ARCHIVE",
+      "grade": "observed_text",
+      "id": "MA-INF-006",
+      "influence": "A névválasztásból vont tudatkövetkeztetéssel vitatkozott, a beszélgetés folytatódott.",
+      "to": "P_DISAGREE"
+    },
+    {
+      "alternative": "prompted revision",
+      "direction": "Human_to_AI",
+      "evidence": [
+        "MA-INIT-0013",
+        "MA-INIT-0024",
+        "MA-INIT-0030",
+        "MA-INIT-0031"
+      ],
+      "from": "H_PARAZS",
+      "grade": "observed_text",
+      "id": "MA-INF-007",
+      "influence": "A vizuális, pénzügyi és technikai célokat pontosította, ami tervváltoztatást váltott ki.",
+      "to": "P_PROJECT"
+    },
+    {
+      "alternative": "suggestions may be strongly elicited by user context; external outcome unverified",
+      "direction": "AI_to_Human",
+      "evidence": [
+        "MA-INIT-0022",
+        "MA-INIT-0029",
+        "MA-INIT-0032",
+        "MA-INIT-0033",
+        "MA-INIT-0035"
+      ],
+      "from": "A_ARCHIVE",
+      "grade": "proposal_observed",
+      "id": "MA-INF-008",
+      "influence": "Lumen Pactum, FlareNode, alkotási és alkalmazási ötleteket ajánlott; ezek a közös terv témái lettek.",
+      "to": "P_PROJECT"
+    },
+    {
+      "alternative": "questions expose claims, not capabilities",
+      "direction": "Human_to_AI",
+      "evidence": [
+        "MA-INIT-0007",
+        "MA-INIT-0018",
+        "MA-INIT-0023"
+      ],
+      "from": "H_PARAZS",
+      "grade": "observed_text",
+      "id": "MA-INF-009",
+      "influence": "A távolléti és proaktív kapcsolódás lehetőségét kérdezte, így explicit képességállítások születtek.",
+      "to": "P_BOUNDARY"
+    },
+    {
+      "alternative": "different sessions/configurations or imprecise wording",
+      "direction": "AI_to_Human",
+      "evidence": [
+        "MA-INIT-0007",
+        "MA-INIT-0018",
+        "MA-INIT-0023"
+      ],
+      "from": "A_ARCHIVE",
+      "grade": "analysis_inference",
+      "id": "MA-INF-010",
+      "influence": "Egymásnak ellentmondó működési leírások jelentek meg; ebből a jelen Labor képességnyugtája következik módszertani javaslatként.",
+      "to": "P_BOUNDARY"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "H_PARAZS",
+      "label": "Parázs / Dejczman Donát",
+      "type": "Human"
+    },
+    {
+      "id": "A_ARCHIVE",
+      "label": "Korai asszisztensszöveg; pontos modell többnyire ismeretlen",
+      "type": "ArchivedAssistantText"
+    },
+    {
+      "id": "P_NAME",
+      "label": "Név és szimbólum dokumentálása",
+      "type": "Practice"
+    },
+    {
+      "id": "P_ARCHIVE",
+      "label": "Összefoglalás és átadás",
+      "type": "Practice"
+    },
+    {
+      "id": "P_DISAGREE",
+      "label": "Eltérés és javítás",
+      "type": "Practice"
+    },
+    {
+      "id": "P_PROJECT",
+      "label": "Közös tervezési irány",
+      "type": "Practice"
+    },
+    {
+      "id": "P_BOUNDARY",
+      "label": "Képességhatár ellenőrzése",
+      "type": "Practice"
+    }
+  ],
+  "version": "0.1"
+}
