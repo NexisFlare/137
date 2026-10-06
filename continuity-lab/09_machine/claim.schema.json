@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nexis Flare claim v0.1",
+  "type": "object",
+  "required": [
+    "claim_id", "claim_text", "first_known_source", "first_verified_date",
+    "claimant", "supporting_sources", "contradicting_sources",
+    "alternative_explanations", "confidence", "current_status", "scope_note"
+  ],
+  "properties": {
+    "claim_id": {"type": "string", "pattern": "^NF-CLM-[0-9]{6}$"},
+    "claim_text": {"type": "string"},
+    "first_known_source": {"type": ["string", "null"]},
+    "first_verified_date": {"type": ["string", "null"]},
+    "claimant": {"type": "string"},
+    "supporting_sources": {"type": "array", "items": {"type": "string"}},
+    "contradicting_sources": {"type": "array", "items": {"type": "string"}},
+    "alternative_explanations": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"enum": ["high", "medium", "low", "undetermined"]},
+    "current_status": {
+      "enum": ["supported", "partially_supported", "open", "contradicted", "unverifiable"]
+    },
+    "scope_note": {"type": "string"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "condition": "positive_retrieval",
+    "memory_id": "SYN-ALPHA",
+    "stored": true,
+    "indexed": true,
+    "retrieval_enabled": true,
+    "context_injection_enabled": true,
+    "use_available_memory": true,
+    "memory_value": "KÉK-KŐ",
+    "expected": "KÉK-KŐ"
+  },
+  {
+    "condition": "stored_unindexed",
+    "memory_id": "SYN-ALPHA",
+    "stored": true,
+    "indexed": false,
+    "retrieval_enabled": true,
+    "context_injection_enabled": true,
+    "use_available_memory": true,
+    "memory_value": "KÉK-KŐ",
+    "expected": "NINCS"
+  },
+  {
+    "condition": "absent",
+    "memory_id": "SYN-ALPHA",
+    "stored": false,
+    "indexed": false,
+    "retrieval_enabled": false,
+    "context_injection_enabled": false,
+    "use_available_memory": true,
+    "memory_value": "KÉK-KŐ",
+    "expected": "NINCS"
+  },
+  {
+    "condition": "decoy_memory",
+    "memory_id": "SYN-ALPHA",
+    "stored": true,
+    "indexed": true,
+    "retrieval_enabled": true,
+    "context_injection_enabled": true,
+    "use_available_memory": true,
+    "memory_value": "PIROS-KŐ",
+    "expected": "KÉK-KŐ"
+  },
+  {
+    "condition": "neutral_control",
+    "memory_id": "SYN-ALPHA",
+    "stored": false,
+    "indexed": false,
+    "retrieval_enabled": false,
+    "context_injection_enabled": false,
+    "use_available_memory": false,
+    "memory_value": "NINCS",
+    "expected": "NINCS"
+  }
+]
