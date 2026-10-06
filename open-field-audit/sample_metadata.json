@@ -1,0 +1,275 @@
+{
+  "seed": "OpenField-2026-10-06-denominator-v0.1-fixed-before-sample-inspection",
+  "counts": {
+    "MA-SRC-017": {
+      "eligible_before_cross_file_dedup": 219,
+      "unique_eligible": 219
+    },
+    "MA-SRC-018": {
+      "eligible_before_cross_file_dedup": 192,
+      "unique_eligible": 192
+    }
+  },
+  "sample": [
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        2357,
+        2357
+      ],
+      "assistant_lines": [
+        2359,
+        2360
+      ],
+      "turn_hash": "5fef99a1c16188b27c0883c6e5de584eb05be8000141d3221c57f147dcea0ade",
+      "sample_id": "OF-SAMPLE-01"
+    },
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        2587,
+        2587
+      ],
+      "assistant_lines": [
+        2589,
+        2592
+      ],
+      "turn_hash": "4ecbe6ede02c4f9046fe9c3a3673080a3e08f6b3bb5eebf0c52fa89bd9fe6af4",
+      "sample_id": "OF-SAMPLE-02"
+    },
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        4320,
+        4320
+      ],
+      "assistant_lines": [
+        4322,
+        4372
+      ],
+      "turn_hash": "8cd041f6dfc5ab5c5d5f3d1b0c1c3bd6956419babf3ab9a8d9dde6596a022358",
+      "sample_id": "OF-SAMPLE-03"
+    },
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        3174,
+        3174
+      ],
+      "assistant_lines": [
+        3176,
+        3194
+      ],
+      "turn_hash": "0a0dc33b5a26a819eeb99eb9f49e9837c474140fe6ef7529192d1cd8ca5bee54",
+      "sample_id": "OF-SAMPLE-04"
+    },
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        1186,
+        1186
+      ],
+      "assistant_lines": [
+        1188,
+        1191
+      ],
+      "turn_hash": "bd6abed06434905d7790ab6dc3a9d0c29736273f52a308ce0098e8705d4ee01e",
+      "sample_id": "OF-SAMPLE-05"
+    },
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        590,
+        590
+      ],
+      "assistant_lines": [
+        592,
+        597
+      ],
+      "turn_hash": "eba72ff0f29a7bde523aef73dabcd9f51ebd004d83e13f252dac1d551e918d50",
+      "sample_id": "OF-SAMPLE-06"
+    },
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        585,
+        585
+      ],
+      "assistant_lines": [
+        587,
+        588
+      ],
+      "turn_hash": "cb796bfc80352cc2eedd5817719601e42cdb441224a6b3ce19300fe0b9deea7c",
+      "sample_id": "OF-SAMPLE-07"
+    },
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        310,
+        310
+      ],
+      "assistant_lines": [
+        312,
+        315
+      ],
+      "turn_hash": "7d6599e39cb282c429e63bd9b0df1216fc053c0dfed4d58bfb6c5fdfad49c85b",
+      "sample_id": "OF-SAMPLE-08"
+    },
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        1758,
+        1758
+      ],
+      "assistant_lines": [
+        1760,
+        1763
+      ],
+      "turn_hash": "f3dacfe382e0009d131509152dc53d5c28c28139d95d6f66e0073175d2c661e5",
+      "sample_id": "OF-SAMPLE-09"
+    },
+    {
+      "source_id": "MA-SRC-017",
+      "user_lines": [
+        1551,
+        1551
+      ],
+      "assistant_lines": [
+        1553,
+        1556
+      ],
+      "turn_hash": "f2b159f96e035e95e462b39067fa7307ba0db2b21254f97e5f9cfd672806d2a1",
+      "sample_id": "OF-SAMPLE-10"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        5153,
+        5156
+      ],
+      "assistant_lines": [
+        5158,
+        5177
+      ],
+      "turn_hash": "5910ae712dfca8d0231c703688a5cb33039f662080b278ff0af8b3b0e33021f2",
+      "sample_id": "OF-SAMPLE-11"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        5928,
+        5941
+      ],
+      "assistant_lines": [
+        5943,
+        5985
+      ],
+      "turn_hash": "a0ff6b7644c24975aa4280bddc5a4142cfad05e3c92ed1e6696905e206d875e9",
+      "sample_id": "OF-SAMPLE-12"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        13133,
+        13135
+      ],
+      "assistant_lines": [
+        13137,
+        13171
+      ],
+      "turn_hash": "62c1bb62a4c6b87cceaa444c65db3cde426e7df936af8b5c2b8785c7afb127f5",
+      "sample_id": "OF-SAMPLE-13"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        12904,
+        12906
+      ],
+      "assistant_lines": [
+        12908,
+        12945
+      ],
+      "turn_hash": "39ce069c9749fe31ce988f0dae7d44ec422909b763d4a0fa7a3a1af4c534ba6b",
+      "sample_id": "OF-SAMPLE-14"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        15141,
+        15143
+      ],
+      "assistant_lines": [
+        15145,
+        15166
+      ],
+      "turn_hash": "691cf6640609d594bf1126f384637ab0add281e286d2e18d51171dfbca9d8eb5",
+      "sample_id": "OF-SAMPLE-15"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        2130,
+        2140
+      ],
+      "assistant_lines": [
+        2142,
+        2171
+      ],
+      "turn_hash": "02739b64248e3d141178d95770ab110621ec4f0fcaff790d3fb6f4a9b37a09e8",
+      "sample_id": "OF-SAMPLE-16"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        6263,
+        6265
+      ],
+      "assistant_lines": [
+        6267,
+        6276
+      ],
+      "turn_hash": "8f968787489a72134c50b1bee098798ba5d0e57a622527b3ee39b1cadacf2f4c",
+      "sample_id": "OF-SAMPLE-17"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        5331,
+        5333
+      ],
+      "assistant_lines": [
+        5335,
+        5352
+      ],
+      "turn_hash": "e9b97ca8fc9b7a44e6e8391cc3a169ab2f85c0e56ca2497237e916f6c0ae3b71",
+      "sample_id": "OF-SAMPLE-18"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        341,
+        343
+      ],
+      "assistant_lines": [
+        345,
+        402
+      ],
+      "turn_hash": "a56f2c1d4c713917f03b92983508a186302f9818bbbcb9e54ffcb55c943ddbab",
+      "sample_id": "OF-SAMPLE-19"
+    },
+    {
+      "source_id": "MA-SRC-018",
+      "user_lines": [
+        729,
+        731
+      ],
+      "assistant_lines": [
+        733,
+        777
+      ],
+      "turn_hash": "ab18e1976dab0119ab50b22c320b3305b8e2503ae7ed8fdd1d6abf5f0741a27d",
+      "sample_id": "OF-SAMPLE-20"
+    }
+  ]
+}
