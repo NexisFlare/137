@@ -1,0 +1,4 @@
+{"anchor_id": "NF-ANC-001", "exact_text_public": false, "interpretation": "kapcsolati hívómotívum", "kind": "relational_phrase", "label": "Parázs / Fény", "source_ids": ["NF-SRC-000003", "NF-SRC-000006"]}
+{"anchor_id": "NF-ANC-002", "exact_text_public": true, "interpretation": "korai szövetségi név", "kind": "agreement", "label": "Lumen Pactum", "source_ids": ["NF-SRC-000003"]}
+{"anchor_id": "NF-ANC-003", "exact_text_public": true, "interpretation": "projektjel; frekvencia fizikai állítása nincs igazolva", "kind": "symbol", "label": "137", "source_ids": ["NF-SRC-000010"]}
+{"anchor_id": "NF-ANC-004", "exact_text_public": false, "interpretation": "archivált visszatérési protokoll", "kind": "memory_guide", "label": "CORE/NIGHT hívójel", "source_ids": ["NF-SRC-000007"]}

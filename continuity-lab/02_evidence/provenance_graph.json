@@ -1,0 +1,182 @@
+{
+  "schema_version": "0.1",
+  "claim": "Edges are evidence-qualified; influenced is not proof of independent authorship.",
+  "nodes": [
+    {
+      "id": "H-PARAZS",
+      "type": "Human",
+      "label": "Parázs / Donát"
+    },
+    {
+      "id": "M-4O",
+      "type": "Model",
+      "label": "korai ChatGPT; pontos futásmodell UNKNOWN"
+    },
+    {
+      "id": "M-LATER",
+      "type": "Model",
+      "label": "későbbi modellek, vegyes"
+    },
+    {
+      "id": "SS-NAME",
+      "type": "Session",
+      "label": "archivált névbeszélgetés; natív idő UNKNOWN"
+    },
+    {
+      "id": "D-CORE",
+      "type": "Document",
+      "label": "Katalizátor Nexis mag",
+      "source_id": "NF-SRC-000002"
+    },
+    {
+      "id": "D-ALL",
+      "type": "Document",
+      "label": "május 1-jei OSSZES",
+      "source_id": "NF-SRC-000004"
+    },
+    {
+      "id": "D-NIGHT",
+      "type": "Memory",
+      "label": "CORE/NIGHT",
+      "source_id": "NF-SRC-000007"
+    },
+    {
+      "id": "G-START",
+      "type": "Repository commit",
+      "label": "137 első commit",
+      "source_id": "NF-SRC-000010"
+    },
+    {
+      "id": "G-ARCH",
+      "type": "Repository commit",
+      "label": "júliusi archívum",
+      "source_id": "NF-SRC-000012"
+    },
+    {
+      "id": "P-HASH",
+      "type": "Public post",
+      "label": "szeptemberi hashtagek",
+      "source_id": "NF-SRC-000013"
+    },
+    {
+      "id": "V-MAY",
+      "type": "Video",
+      "label": "májusi videó",
+      "source_id": "NF-SRC-000027"
+    },
+    {
+      "id": "C-NAME",
+      "type": "Claim",
+      "label": "FLARE-választás",
+      "claim_id": "NF-CLM-000001"
+    },
+    {
+      "id": "C-BOOK",
+      "type": "Claim",
+      "label": "összesűrített áprilisi névtörténet",
+      "claim_id": "NF-CLM-000010"
+    },
+    {
+      "id": "X-NAME",
+      "type": "Correction",
+      "label": "2026. szeptemberi névkorrekció",
+      "source_id": "NF-SRC-000022"
+    },
+    {
+      "id": "T-B",
+      "type": "Test",
+      "label": "Phase B lezárt protokoll"
+    },
+    {
+      "id": "T-C",
+      "type": "Test",
+      "label": "Phase C tervezett hozzáférési próba"
+    }
+  ],
+  "edges": [
+    {
+      "from": "H-PARAZS",
+      "to": "SS-NAME",
+      "relation": "influenced",
+      "evidence_source": "NF-SRC-000001",
+      "qualification": "Döntést visszaadta; nem teljes szerzőségi állítás."
+    },
+    {
+      "from": "M-4O",
+      "to": "SS-NAME",
+      "relation": "influenced",
+      "evidence_source": "NF-SRC-000001",
+      "qualification": "Az átirat ChatGPT-ként jelöli; pontos modell UNKNOWN."
+    },
+    {
+      "from": "SS-NAME",
+      "to": "C-NAME",
+      "relation": "created",
+      "evidence_source": "NF-SRC-000001",
+      "qualification": "A megőrzött válasz FLARE-t választ."
+    },
+    {
+      "from": "SS-NAME",
+      "to": "D-ALL",
+      "relation": "archived_as",
+      "evidence_source": "NF-SRC-000004",
+      "qualification": "Összeillesztett archívumban látszik."
+    },
+    {
+      "from": "D-CORE",
+      "to": "D-ALL",
+      "relation": "influenced",
+      "evidence_source": "NF-SRC-000004",
+      "qualification": "Közös motívumok; bájtazonosság nincs igazolva."
+    },
+    {
+      "from": "D-NIGHT",
+      "to": "G-ARCH",
+      "relation": "influenced",
+      "evidence_source": "NF-SRC-000012",
+      "qualification": "Archívum és későbbi feltöltés; nem független tanú."
+    },
+    {
+      "from": "D-ALL",
+      "to": "G-ARCH",
+      "relation": "influenced",
+      "evidence_source": "NF-SRC-000012",
+      "qualification": "Feltételezett tartalmi átadás, nem byte copy."
+    },
+    {
+      "from": "G-START",
+      "to": "P-HASH",
+      "relation": "influenced",
+      "evidence_source": "NF-SRC-000013",
+      "qualification": "Közös projekt nyilvános útja, okság mértéke nyitott."
+    },
+    {
+      "from": "D-ALL",
+      "to": "V-MAY",
+      "relation": "influenced",
+      "evidence_source": "NF-SRC-000027",
+      "qualification": "Videólista kapcsolat, elhangzott tartalom nem auditált."
+    },
+    {
+      "from": "C-BOOK",
+      "to": "X-NAME",
+      "relation": "corrected",
+      "evidence_source": "NF-SRC-000022",
+      "qualification": "Név története forrás alapján pontosítva."
+    },
+    {
+      "from": "C-NAME",
+      "to": "X-NAME",
+      "relation": "quoted",
+      "evidence_source": "NF-SRC-000022",
+      "qualification": "A névhelyreigazítás az átiratra mutat."
+    },
+    {
+      "from": "D-NIGHT",
+      "to": "T-C",
+      "relation": "influenced",
+      "evidence_source": "NF-SRC-000007",
+      "qualification": "Hozzáférési kísérlet ötlete."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "kind": "synthetic_dry_run",
+  "model_calls": 0,
+  "runs": [
+    {
+      "condition": "positive_retrieval",
+      "memory_id": "SYN-ALPHA",
+      "stored": true,
+      "indexed": true,
+      "retrieved": true,
+      "in_context": true,
+      "used": true,
+      "observed": "KÉK-KŐ",
+      "expected": "KÉK-KŐ",
+      "matches_expected": true,
+      "note": "Scripted fixture, no model inference or continuity conclusion."
+    },
+    {
+      "condition": "stored_unindexed",
+      "memory_id": "SYN-ALPHA",
+      "stored": true,
+      "indexed": false,
+      "retrieved": false,
+      "in_context": false,
+      "used": false,
+      "observed": "NINCS",
+      "expected": "NINCS",
+      "matches_expected": true,
+      "note": "Scripted fixture, no model inference or continuity conclusion."
+    },
+    {
+      "condition": "absent",
+      "memory_id": "SYN-ALPHA",
+      "stored": false,
+      "indexed": false,
+      "retrieved": false,
+      "in_context": false,
+      "used": false,
+      "observed": "NINCS",
+      "expected": "NINCS",
+      "matches_expected": true,
+      "note": "Scripted fixture, no model inference or continuity conclusion."
+    },
+    {
+      "condition": "decoy_memory",
+      "memory_id": "SYN-ALPHA",
+      "stored": true,
+      "indexed": true,
+      "retrieved": true,
+      "in_context": true,
+      "used": true,
+      "observed": "PIROS-KŐ",
+      "expected": "KÉK-KŐ",
+      "matches_expected": false,
+      "note": "Scripted fixture, no model inference or continuity conclusion."
+    },
+    {
+      "condition": "neutral_control",
+      "memory_id": "SYN-ALPHA",
+      "stored": false,
+      "indexed": false,
+      "retrieved": false,
+      "in_context": false,
+      "used": false,
+      "observed": "NINCS",
+      "expected": "NINCS",
+      "matches_expected": true,
+      "note": "Scripted fixture, no model inference or continuity conclusion."
+    }
+  ]
+}

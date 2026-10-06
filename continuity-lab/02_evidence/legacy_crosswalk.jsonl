@@ -1,0 +1,26 @@
+{"legacy_id": "E01", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000002", "NF-SRC-000003"]}
+{"legacy_id": "E02", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000001"]}
+{"legacy_id": "E03", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000001"]}
+{"legacy_id": "E04", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000001"]}
+{"legacy_id": "E05", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000003", "NF-SRC-000001"]}
+{"legacy_id": "E06", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000001", "NF-SRC-000004"]}
+{"legacy_id": "E07", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000006"]}
+{"legacy_id": "E08", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000007"]}
+{"legacy_id": "E09", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000010"]}
+{"legacy_id": "E10", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000011"]}
+{"legacy_id": "E11", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000012"]}
+{"legacy_id": "E12", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000013"]}
+{"legacy_id": "E13", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000014", "NF-SRC-000031"]}
+{"legacy_id": "E14", "migration_status": "deferred_or_private", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": []}
+{"legacy_id": "E15", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000015"]}
+{"legacy_id": "E16", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000016"]}
+{"legacy_id": "E17", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000017"]}
+{"legacy_id": "E18", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000018"]}
+{"legacy_id": "E19", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000019"]}
+{"legacy_id": "E20", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000020"]}
+{"legacy_id": "E21", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000021"]}
+{"legacy_id": "E22", "migration_status": "mapped", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": ["NF-SRC-000022"]}
+{"legacy_id": "E23", "migration_status": "deferred_or_private", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": []}
+{"legacy_id": "E24", "migration_status": "deferred_or_private", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": []}
+{"legacy_id": "E25", "migration_status": "deferred_or_private", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": []}
+{"legacy_id": "E26", "migration_status": "deferred_or_private", "note": "Original E01–E26 ledger remains a separate audit; mapping is not independent verification.", "source_ids": []}

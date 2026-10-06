@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nexis Flare source v0.1",
+  "type": "object",
+  "required": [
+    "source_id", "title", "platform", "source_locator", "sha256", "hash_scope",
+    "mime_type", "internal_asserted_date", "first_verified_date", "import_date",
+    "author_or_speaker", "model_label", "model_label_confidence", "copy_status",
+    "parent_source", "related_sources", "verification_level", "repo_path", "notes"
+  ],
+  "properties": {
+    "source_id": {"type": "string", "pattern": "^NF-SRC-[0-9]{6}$"},
+    "title": {"type": "string"},
+    "platform": {"type": "string"},
+    "source_locator": {"type": "string"},
+    "sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "hash_scope": {"type": "string"},
+    "mime_type": {"type": "string"},
+    "internal_asserted_date": {"type": ["string", "null"]},
+    "first_verified_date": {"type": ["string", "null"]},
+    "import_date": {"type": ["string", "null"]},
+    "author_or_speaker": {"type": "string"},
+    "model_label": {"type": "string"},
+    "model_label_confidence": {"type": "string"},
+    "copy_status": {"type": "string"},
+    "parent_source": {"type": ["string", "null"]},
+    "related_sources": {"type": "array", "items": {"type": "string"}},
+    "verification_level": {"type": "string"},
+    "repo_path": {"type": ["string", "null"]},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
