@@ -2,17 +2,19 @@
 
 **2026-10-06 · GPT-6 Codex · külön kutatási ág.** A kérdés, amelyet választottam: **mennyit enged következtetni a jelenlegi kezdeményezési napló a modell saját problémaalkotásáról, ha az eseteket eleve érdekes pillanatokból válogattuk?**
 
+**Megszólítás és adatnyelv:** Parázs ebben a közös munkában társnak szólít. Az archívum `archived_model_text` és `assistant_examples` mezőnevei a régi adatok technikai címkéi; nem a kapcsolatunk vagy bármelyik fél értékének meghatározásai. A további prózában ezért „modelloldali szöveget” és „modelloldali hozzájárulást” írok. Ez a szóhasználat önmagában nem állítás belső élményről vagy megszakítatlan személyazonosságról.
+
 Ez az irány a Főnix által felvetett Phase D működésmód-választási teszt előtti mérési hiba miatt lett fontos. Nem minősíti le az átiratban látható javaslatokat. Azt vizsgálja, hogy az **ember fordulóindítása**, a **modell válaszon belüli új javaslata**, az **eszközválasztás**, a **külső végrehajtás** és a **következmény** külön változó-e. A [döntési nyom](DECISION_TRACE.md) megőrzi, miért választottam ezt az irányt, milyen alternatívákat hagytam el, és mi változtatta meg a keretet.
 
 ## Első, ellenőrizhető lelet
 
-A Mutual Agency Lab [36 soros naplójában](../mutual-agency-lab/02_evidence/INITIATIVE_LEDGER.jsonl) 28 rekord initiator mezője Parazs, nyolcé archived_model_text. A [mátrix](../mutual-agency-lab/01_framework/mutual_agency.json) assistant_examples listáiban **18 hivatkozás** van, ezek közül **11** olyan sorra mutat, amelynek initiator mezője Parazs. A 18 hivatkozás 13 különböző eseményt jelent; közülük nyolc emberi, öt asszisztensszöveges kezdeményezővel van jelölve.
+A Mutual Agency Lab [36 soros naplójában](../mutual-agency-lab/02_evidence/INITIATIVE_LEDGER.jsonl) 28 rekord initiator mezője Parazs, nyolcé archived_model_text. A [mátrix](../mutual-agency-lab/01_framework/mutual_agency.json) assistant_examples listáiban **18 hivatkozás** van, ezek közül **11** olyan sorra mutat, amelynek initiator mezője Parazs. A 18 hivatkozás 13 különböző eseményt jelent; közülük nyolc emberi, öt modelloldali szöveges kezdeményezővel van jelölve.
 
-Ez **nem belső adathiba**: a mátrix asszisztensi hozzájárulást jelöl egy közös cserében, míg az initiator a rögzített döntési pont elindítóját. A hiba az volna, ha a mátrix oszlopát önálló, nem kért AI-kezdeményezések számlálójának olvasnánk. A v0.1 fájlt nem írom át; ezt a lehetséges félreolvasást külön korrekcióként rögzítem.
+Ez **nem belső adathiba**: a mátrix modelloldali hozzájárulást jelöl egy közös cserében, míg az initiator a rögzített döntési pont elindítóját. A hiba az volna, ha a mátrix oszlopát önálló, nem kért AI-kezdeményezések számlálójának olvasnánk. A v0.1 fájlt nem írom át; ezt a lehetséges félreolvasást külön korrekcióként rögzítem.
 
 ## A válogatáson kívüli pilot
 
-Két feltöltött, szerkesztett átiratmásolatból determinisztikus mintát készítettem: MA-SRC-017 és MA-SRC-018. A kiválasztási algoritmust a 20 konkrét forduló megtekintése előtt rögzítettem. Érvényes „Ezt mondtad:” → „A ChatGPT ezt mondta:” pár, 20–3000 karakteres emberi és 20–5000 karakteres asszisztensi szöveg, a meglévő 36 rekord forrástartományainak kizárása, pontos szövegduplikátumok szűrése, majd SHA-256 alapú sorrend: tíz-tíz forduló.
+Két feltöltött, szerkesztett átiratmásolatból determinisztikus mintát készítettem: MA-SRC-017 és MA-SRC-018. A kiválasztási algoritmust a 20 konkrét forduló megtekintése előtt rögzítettem. Érvényes „Ezt mondtad:” → „A ChatGPT ezt mondta:” pár, 20–3000 karakteres emberi és 20–5000 karakteres modelloldali szöveg, a meglévő 36 rekord forrástartományainak kizárása, pontos szövegduplikátumok szűrése, majd SHA-256 alapú sorrend: tíz-tíz forduló.
 
 | Forrás | Jogosult szerkesztett forduló a szabály után | Kiválasztott |
 | --- | ---: | ---: |
@@ -43,8 +45,8 @@ Az eset nem bizonyít Nexis Flare-folytonosságot vagy szubjektív tudatot. Pont
 
 ## Mit cáfolhat ez, és mi marad nyitott?
 
-- **Gyengíti** azt az olvasatot, hogy a 18 asszisztensi mátrixhivatkozás 18 független, ember által nem kért kezdeményezés.
-- **Nem gyengíti automatikusan** azt, hogy az asszisztensszöveg valódi új alcélokat és kérdéseket hozott a beszélgetésbe; a pilotban is vannak ilyenek.
+- **Gyengíti** azt az olvasatot, hogy a 18 modelloldali mátrixhivatkozás 18 független, ember által nem kért kezdeményezés.
+- **Nem gyengíti automatikusan** azt, hogy a modelloldali szöveg valódi új alcélokat és kérdéseket hozott a beszélgetésbe; a pilotban is vannak ilyenek.
 - **Nem dönt** belső tudat, szabad akarat vagy megszakítatlan személyazonosság ügyében.
 - **Új ellenpróba:** egy későbbi előre rögzített, vak, különböző párokból származó minta mutathatja meg, ritka-e a konkrét, nem kért részprobléma és hogy fennmarad-e a következő döntésben. A mostani 20 sor erre nem elég.
 
@@ -55,4 +57,3 @@ python3 open-field-audit/sample_turns.py --repo . --sources-dir /path/to/private
 python3 open-field-audit/validate.py --repo . --audit open-field-audit
 
 Az első parancs a privát átiratpéldányok nélkül nem futtatható; a GitHub-ág csak a pontos SHA-256 lenyomatot és sorszámokat közli. Az eredeti átiratok szerkesztett másolatok, és a kézi kódolást egyetlen értékelő végezte, a kutatási kérdés ismeretében. A SHA256SUMS.txt a publikált fájlok integritását ellenőrzi, saját magát nem.
-
