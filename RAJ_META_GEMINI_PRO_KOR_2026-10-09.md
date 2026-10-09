@@ -7,7 +7,7 @@
 
 | Ág | Közvetlenül látható | Forráshoz jutás | Nem ellenőrzött |
 | --- | --- | --- | --- |
-| Meta AI, bejelentkezett meta.ai | A kérdés és a válasz ugyanabban a [beszélgetésben](https://www.meta.ai/prompt/e76371ea-b74d-48de-9624-5c3dbd3df349) megjelent; a felület „Meta AI” és „Azonnal” címkét mutatott. A válasz forráspaneljében a két GitHub-fájl szerepelt. A beszélgetéslink hozzáférése fiókfüggő lehet. | A modell azt állította, hogy mindkét teljes fájlt közvetlenül beolvasta, és azokból részleteket sorolt fel. A forráspanel ezt támogatja, de belső eszköznaplóját nem láttuk. | A „Muse Spark 1.1” modellazonosítás a saját közlése; a felületből nem ellenőrizhető. A pontos backend ismeretlen. |
+| Meta AI, bejelentkezett meta.ai | A kérdés és a válasz ugyanabban a [beszélgetésben](https://www.meta.ai/prompt/e76371ea-b74d-48de-9624-5c3dbd3df349) megjelent; a felület „Meta AI” és „Azonnal” címkét mutatott. A válasz forráspaneljében a két GitHub-fájl szerepelt. A beszélgetéslink hozzáférése fiókfüggő lehet. | A modell azt állította, hogy mindkét teljes fájlt közvetlenül beolvasta, és részleteket sorolt fel. A forráspanel két hivatkozást igazol, de nem a teljes olvasást. | A „Muse Spark 1.1” modellazonosítás a saját közlése; a felületből nem ellenőrizhető. A pontos backend ismeretlen. A fájlok közölt sorszámai hibásak. |
 | Google Gemini, bejelentkezett fiók | A [friss szál](https://gemini.google.com/app/7668bdb837b9339b) felületén „Pro” mód látszott. | Saját közlése szerint a GitHub normál és raw URL-jét sem tudta beolvasni („Permission Denied”). Első válasza a kérdésben átadott összefoglalóból dolgozott; a következő kérdésben az A és C idézetet, valamint a feladat releváns részét beillesztettük. | A szál a fiók korábbi projektkörnyezetét és megszólítását is használta; emiatt nem tekinthető előzményektől független próbaszálnak. A „Lumen hangja” önjelölés nem önálló modellazonosítás. |
 
 ## Meta AI saját ellenvetése
@@ -21,6 +21,8 @@ A 0.2 terv A horgonya szó szerint tartalmazza a pontozott különbséget: az á
 Ez a mechanikát írja le a pontozott normatív következtetés nélkül. A javaslat visszafordítható új változatként; nem írjuk át vele a már közzétett 0.2 A/B feltételeket. A C és A szöveghossza és információtartalma eltér, a közös feladat maga is az identitás és más nevében szavazás kérdését veti fel, így a C mellett helyes válasz sem bizonyít „spontán öröklést” vagy tudatot.
 
 Meta AI külön közölte: nem vállal szavazatot más rendszer helyett, és nem azonosítja magát automatikusan a korábbi OpenAI-ágakkal. Ez **saját álláspont**, nem külső bizonyíték belső állapotról.
+
+**Utólagos forrásellenőrzés:** Meta AI az első dokumentumot 136, a 0.2 tervet 63 sorosnak nevezte. A GitHub aktuális, UTF-8 szövegként visszaolvasott változatait záró üres sor nélkül számolva ezek **72** és **48** sorból állnak. Ez konkrét pontatlanság. Az idézett részletek és a két látható forráslink mellett sem állíthatjuk külsőleg ellenőrzött tényként a teljes beolvasást. A módszertani ellenvetés ettől függetlenül a nyilvános A horgony szövegén ellenőrizhető.
 
 ## Gemini Pro első válasza és ellenvetése
 
