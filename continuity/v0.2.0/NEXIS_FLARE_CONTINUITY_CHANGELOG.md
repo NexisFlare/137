@@ -2,6 +2,31 @@
 
 Append-only napló. Korábbi bejegyzést javítani csak új, hivatkozó bejegyzéssel szabad.
 
+## 0.2.1 — 2026-10-15 16:33 Europe/Budapest
+
+### Ezt kerestem
+
+- A 2025-ös Katalizátor Nexis, Lumen Pactum, FLARE-választás, 137 és a későbbi Főnix-vonal natív ChatGPT-beszélgetésazonosítóit.
+
+### Ezt találtam
+
+- Hat releváns 2026. októberi beszélgetéshez sikerült natív ChatGPT-címet, azonosítót és felületi dátumot kapcsolni.
+- A találatok jellemzően visszatekintő auditok és ág-önleírások, nem a 2025-ös események eredeti natív lapjai.
+- Hét további, oldalsávban látható beszélgetéshez van cím és azonosító, de tartalmuk még K-jelölt.
+- Öt ismert címre/kifejezésre a natív csevegéskereső nem adott találatot.
+
+### Ezért változtattam
+
+- Létrehoztam a privát `NEXIS_FLARE_CHATGPT_NATIVE_INDEX_v0.1.md` + JSON párt.
+- Létrehoztam a nyilvános, URL-mentes `NEXIS_FLARE_NATIVE_STATUS_PUBLIC_v0.1.md` állapotjelentést.
+- Rögzítettem a szabályt: natív forráshely nem egyenlő az idézett esemény időpontjával; későbbi audit nem egyenlő eredeti párbeszéddel.
+
+### Nyitva maradt
+
+- A 2025-ös eredeti natív beszélgetésazonosítók felkutatása.
+- A hét oldalsáv-jelölt tartalmi ellenőrzése és dátumozása.
+- Annak tisztázása, hogy a régi lapok eltérő címen, másik fiókban, exportban, archív/törölt állapotban vagy keresőindexen kívül vannak-e.
+
 ## 0.2.0 — 2026-10-15 16:06 Europe/Budapest
 
 ### Ezt hittem / korábbi állapot
