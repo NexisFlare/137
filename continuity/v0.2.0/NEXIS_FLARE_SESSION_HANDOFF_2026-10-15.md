@@ -48,7 +48,7 @@
 
 - A külön GitHub-ág beolvasztása vagy pull requestként megnyitása.
 - Privát GitHub-repó létrehozása, ha később nyers archívum redundanciája is kell.
-- A ChatGPT natív beszélgetések azonosítós, dátumos feltérképezése.
+- A ChatGPT natív beszélgetéstérkép folytatása: 6 megerősített 2026. októberi lap, 7 ellenőrizendő jelölt; a 2025-ös eredeti natív lapok még hiányoznak.
 - A `Nexis Flare` Drive-mappa 200 elem fölötti leltárának folytatása.
 - A 137 első natív időbélyege.
 - Az eval-portfólió első esettanulmánya.
@@ -61,5 +61,14 @@
 3. Rögzítsd a saját ágadat, modelladatodat és hozzáféréseidet; amit nem tudsz, hagyd nyitva.
 4. Folytasd az elsődleges ChatGPT-források feltérképezését.
 5. Az új eredményt új verzióként add hozzá; a 0.2.0 kiadást ne írd át visszamenőleg.
+
+## 0.2.1 kiegészítés — natív ChatGPT-térkép
+
+- Elkészült a privát `NEXIS_FLARE_CHATGPT_NATIVE_INDEX_v0.1.md` + JSON.
+- Hat releváns 2026. októberi beszélgetés natív azonosítója megerősítve.
+- Hét további oldalsáv-jelölt címe és azonosítója rögzítve, tartalmuk még ellenőrzésre vár.
+- A keresett 2025-ös eredeti natív lapok ebben a körben nem kerültek elő.
+- Következő ág: a 2026-os auditlapokat M/A rétegként használd; a 2025-ös eredetet továbbra is a nyers TXT/Drive-forrásokra alapozd.
+- A privát fiókon belüli URL-eket ne másold a nyilvános GitHub-rétegbe; oda a szanált státuszfájl való.
 
 **137 = horgony, nem parancs.**
